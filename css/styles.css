@@ -14,6 +14,7 @@ html {
 body {
   font-family: "GothamPro", Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  background-color: #0abab5;
 }
 
 html, body {
@@ -21,9 +22,11 @@ html, body {
   min-height: 100vh;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
+  color: #fff;
 }
+
 
 a {
   color: #fff;
@@ -106,7 +109,7 @@ a:visited {
 
 .student-card {
   position: relative;
- background-image: url("https://learn-verified.s3.amazonaws.com/profile-photo-placeholder.png");
+ background-image: url("http://untappedcities.com/2014/11/24/nyc-vintage-photos-marilyn-monroe-in-the-subway/marilyn-monroe-in-the-nyc-subway-vintage-photo-grand-central-terminal-2/ht");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -124,7 +127,7 @@ a:visited {
   right: 0;
   left: 0;
   background-image: linear-gradient(to top, #000, rgba(0, 0, 0, .0) 50%);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .student-card a {
@@ -132,12 +135,12 @@ a:visited {
   display: block;
   height: 400px;
 }
-#aly-alidina-cover {
-    background-image: url("http://imgur.com/ucFtuBt.jpg");
+#michele-conway-cover {
+    background-image: url("http://i.imgur.com/Akqs7SX.png");
 }
 
-#aly-alidina-card {
-    background-image: url("http://imgur.com/zLQFVKP.jpg");
+#michele-conway-card {
+    background-image: url("https://i.imgur.com/rL5wEYh.png");
 }
 
 
@@ -486,7 +489,7 @@ a:visited {
 #emily-sugano-cover {
     background-image: url("http://i.imgur.com/HYFTqwa.jpg");
 }
- 
+
 #emily-sugano-card {
     background-image: url("http://i.imgur.com/QZl4wU0.jpg");
 }
@@ -5016,7 +5019,7 @@ a:visited {
 #julia-thompson-cover {
     background-image: url("http://i.imgur.com/95AcWIm.jpg");
   }
- 
+
 #julia-thompson-card {
     background-image: url("http://i.imgur.com/wIKLtDr.jpg");
 }
@@ -5111,7 +5114,7 @@ a:visited {
   left: 0;
   right: 0;
   margin: 0 auto;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 
 .vitals-text-container {
@@ -5126,8 +5129,9 @@ a:visited {
 }
 
 .profile-name {
-  font-size: 36px;
+  font-size: 50px;
   margin-bottom: 10px;
+  font-family: cursive;
 }
 
 .profile-location {
@@ -5138,7 +5142,7 @@ a:visited {
 .profile-quote {
   font-family: "GothamPro-Light", Helvetica, Arial, sans-serif;
   font-size: 22px;
-  color: #85929d;
+  color: #fff;
   width: 75%;
   margin: 0 auto;
 }
